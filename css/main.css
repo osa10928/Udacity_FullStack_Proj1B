@@ -1,0 +1,127 @@
+body {
+  color: #2d3c49
+}
+
+aside {
+  margin-top: 20%;
+  float: left;
+  width: 18%;
+}
+
+#color-scheme-container {
+  display: flex;
+  margin-left: 30%;
+  margin-right: 15%;
+  flex-wrap: wrap;
+}
+
+.color-scheme {
+  width: 70%;
+  margin-top: 3%;
+  padding-top: 70%;
+}
+
+#primary-color {
+  background: #02b3e4;
+}
+
+#secondary-color {
+  background: #2d3c49;
+}
+
+#tertiary-color {
+  background-color: #7d97ad;
+}
+
+section {
+  float: right;
+  width: 78%;
+}
+
+#opening-header {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1% 0;
+  padding-bottom: 3%;
+  border-bottom: solid thick #7d97ad
+}
+
+#logo-container {
+  max-width: 10%;
+}
+
+/*Inline img needs to be centered vertically */
+#logo {
+  position: relative;
+  left: 50%;
+  top: 40%;
+}
+
+#introduction {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+#name {
+  font-size: 3em;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#opening-quip {
+  text-align: right;
+  margin-top: 0;
+}
+
+hr {
+  border-color: #2d3c49;
+}
+
+#main-img-container {
+  margin: 5% auto;
+}
+
+#main-img {
+  max-height: 450px;
+  margin: auto;
+}
+
+#featured-work {
+  margin-bottom: 0;
+  color: #7d97ad;
+}
+
+p {
+  margin-top: 0;
+  color: #7d97ad;
+}
+
+#projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Instead of items in flexbox growing to 100% width a row
+    the will only grow to 300px and share a row with a on
+    a device with a large screen size */
+.projects {
+  max-width: 300px !important;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* So all images are responsive and centered unless otherwise styled */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* A bootstrap4 described col class for items in a flexbox. Used on 'Featured Work' Items  */
+.col {
+  padding: 15px;
+  flex-grow: 1;
+  max-width: 100%;
+}
