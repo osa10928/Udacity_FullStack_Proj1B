@@ -1,43 +1,3 @@
-body {
-  color: #2d3c49
-}
-
-aside {
-  margin-top: 20%;
-  float: left;
-  width: 18%;
-}
-
-#color-scheme-container {
-  display: flex;
-  margin-left: 30%;
-  margin-right: 15%;
-  flex-wrap: wrap;
-}
-
-.color-scheme {
-  width: 70%;
-  margin-top: 3%;
-  padding-top: 70%;
-}
-
-#primary-color {
-  background: #02b3e4;
-}
-
-#secondary-color {
-  background: #2d3c49;
-}
-
-#tertiary-color {
-  background-color: #7d97ad;
-}
-
-section {
-  float: right;
-  width: 78%;
-}
-
 #opening-header {
   display: flex;
   flex-wrap: nowrap;
@@ -47,7 +7,7 @@ section {
 }
 
 #logo-container {
-  max-width: 10%;
+  max-width: 7%;
 }
 
 /*Inline img needs to be centered vertically */
@@ -86,6 +46,10 @@ hr {
   margin: auto;
 }
 
+#featured-work-heading {
+  text-align: center;
+}
+
 #featured-work {
   margin-bottom: 0;
   color: #7d97ad;
@@ -101,18 +65,16 @@ p {
   flex-wrap: wrap;
 }
 
-/* Instead of items in flexbox growing to 100% width a row
-    the will only grow to 300px and share a row with a on
-    a device with a large screen size */
 .projects {
-  max-width: 300px !important;
+  max-width: 500px !important;
+  margin: 0 auto;
 }
 
 h3 {
   text-align: center;
 }
 
-/* So all images are responsive and centered unless otherwise styled */
+/*So all images are responsive and centered unless otherwise styled */
 img {
   max-width: 100%;
   display: block;
